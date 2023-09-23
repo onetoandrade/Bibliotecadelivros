@@ -1,0 +1,100 @@
+body{
+    background-color: brown;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    display: inline-block;
+    color: black;
+    font-family: poppinsmediu;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    color: black;
+}
+
+a{
+    color: red;
+
+}
+
+a:hover{
+    color: red;
+    transition: 0.3s all;
+}
+
+#inscreva-se-bnt{
+    border: 2px solid color( red );
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: black;
+}
+
+p{
+    line-height: 20px;
+    color: black;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 400px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form[type="submit"]{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}

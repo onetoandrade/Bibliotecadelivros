@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="=UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/style.css" rel="stylesheet">
+        <link href="styles/media.css" rel="stylesheet">
+        <title>landing page</title>
+
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                <h1>Biblioteca</h1>
+                <h1>para todos</h1>
+                
+                
+            </div>
+            <ul>
+               <a href="#"><li>Inicio</li></a> 
+               <a href="#"><li>Doações de livros</li></a> 
+               <a href="#"><li>Contatos</li></a> 
+               <a href="#"><li>Quem somos</li></a> 
+               <a href="#"><li>Serviços</li></a> 
+               <a href="#" id="Inscreva-se-bnt"><li>Livraria Digital</li></a>
+            </ul>
+        </header>
+        <main>
+            <aside>
+                <h2><span>Increva-se agora</span></h2>
+                <h2>na nossa biblioteca para todos</h2>
+                <p>
+                    Biblioteca para todos,nossa intenção e ajudar pessoas com pouco acesso a livros e conteúdos digitais e doações de livros usados estamos voltados a melhorar a leituras de pessoas que tem pouco acesso a educação e você pode nos ajudar doando livros e acessando nossos conteúdos.
+                </p>
+                <form>
+                    <input type="Text" placeholder="Nome">
+                    <input type="email" placeholder="E-mail">
+                    <input type="submit" value="Enviar >">
+                </form>
+            </aside>
+            <article>
+                <img src="images/foto livros.avif"> 
+            </article>
+        </main>
+    </body>
+</html>
+
+<style>
+    body{
+    background-color: brown;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    display: inline-block;
+    color: black;
+    font-family: poppinsmediu;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    color: black;
+}
+
+a{
+    color: red;
+
+}
+
+a:hover{
+    color: red;
+    transition: 0.3s all;
+}
+
+#inscreva-se-bnt{
+    border: 2px solid color( red );
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: black;
+}
+
+p{
+    line-height: 20px;
+    color: black;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 400px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form[type="submit"]{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+</style>
+
